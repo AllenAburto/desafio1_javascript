@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Intro a Javascript</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <section class="container">
+      <div class="producto">
+        <img
+          src="assets/img/asus_zenbook.jpeg"
+          alt="Notebook Asus Zenbook Pro Duo 14 OLED"
+        />
+        <div class="titulo">
+          <h2>Notebook Asus Zenbook Pro Duo 14 OLED Intel Core i7</h2>
+        </div>
+        <div class="input">
+          <label for="cantidad">Cantidad</label>
+          <input
+            class="text"
+            id="cantidad"
+            name="cantidad"
+            type="text"
+            placeholder="Ingrese Cantidad"
+          />
+          <label for="color">Color</label>
+          <input
+            class="text"
+            id="color"
+            name="color"
+            type="text"
+            placeholder="Ingrese Color"
+          />
+        </div>
+        <p>Precio: $2.449.990<span id="precio"></span></p>
+        <button onclick="total()">Calcular Total</button>
+      </div>
+      <div class="detalle">
+        <p id="t-precio">Total: <span></span></p>
+        <p id="t-cantidad">Cantidad: <span></span></p>
+        <div class="color-box">
+          <p id="color-p">Color:</p>
+          <div id="color-circle" class="color-circle"></div>
+        </div>
+      </div>
+    </section>
+    <script src="./assets/js/scripts.js"></script>
+  </body>
+</html>

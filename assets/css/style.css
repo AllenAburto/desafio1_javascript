@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #49484b;
+  width: 100vw;
+  height: 100vh;
+}
+
+.container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+.producto {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  text-align: center;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 5%;
+  overflow: hidden;
+}
+
+.producto img {
+  width: 250px;
+}
+
+.input {
+  width: 200px;
+  margin: 0.5rem;
+}
+
+.text {
+  padding: 10px;
+  width: 100%;
+  border: 2px solid black;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+button {
+  padding: 0.4rem;
+  width: 50%;
+  border: 2px solid black;
+  background-color: transparent;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-bottom: 1rem;
+}
+
+button:hover,
+button:focus {
+  background-color: #1f2fa9;
+  color: white;
+}
+
+.detalle {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 200px;
+  background-color: white;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 5%;
+}
+
+.color-box {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.color-circle {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 1px solid black;
+  background-color: white;
+}
